@@ -1,0 +1,174 @@
+<!--/************************** Alfiyyah's Contribution *********************/-->
+
+<body>
+<br>
+<br>
+<div class="container">
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          PFIZER
+        </button>
+      </h2>
+
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <h3>COVID19 CERTIFICATE</h3>
+          <h3>PFIZER</h3>
+          <br>
+          <p class="h6"*ngFor="let certificates of currentCertificates">
+            Date: {{certificates.certDate}}</p>
+          <p class="h6"*ngFor="let certificates of currentCertificates">
+            Time: {{certificates.certTime}}</p>
+          <br>
+          <br>
+          <p class="h5"*ngFor="let certificates of currentCertificates">
+           <strong>PATIENT DETAILS</strong>  <br><br> Patient ID: {{certificates.patientID}}</p>
+          <p class="h5"*ngFor="let patients of currentPatients">
+            Full Name: {{patients.patientName}}</p>
+          <br>
+          <br>
+          <p class="h5"*ngFor="let certificates of currentCertificates">
+            <strong>RESULT</strong> <br><br> {{certificates.vacResult}}</p>
+          <br>
+          <br>
+          <p class="h5"*ngFor="let certificates of currentCertificates">
+            <strong>PRACTICE</strong> <br><br> {{certificates.facility}}</p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Astrazeneca 1.2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <h3>COVID19 CERTIFICATE</h3>
+        <h3>Astrazeneca 1.2</h3>
+        <br>
+        <p class="h6"*ngFor="let certificates of currentCertificates">
+          Date: {{certificates.certDate}}</p>
+        <p class="h6"*ngFor="let certificates of currentCertificates">
+          Time: {{certificates.certTime}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>PATIENT DETAILS</strong>  <br><br> Patient ID: {{certificates.patientID}}</p>
+        <p class="h5"*ngFor="let patients of currentPatients">
+          Full Name: {{patients.patientName}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>RESULT</strong> <br><br> {{certificates.vacResult}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>PRACTICE</strong> <br><br> {{certificates.facility}}</p>
+        <br>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Astrazeneca 2.2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <h3>COVID19 CERTIFICATE</h3>
+        <h3>Astrazeneca 2.2</h3>
+        <br>
+        <p class="h6"*ngFor="let certificates of currentCertificates">
+          Date: {{certificates.certDate}}</p>
+        <p class="h6"*ngFor="let certificates of currentCertificates">
+          Time: {{certificates.certTime}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>PATIENT DETAILS</strong>  <br><br> Patient ID: {{certificates.patientID}}</p>
+        <p class="h5"*ngFor="let patients of currentPatients">
+          Full Name: {{patients.patientName}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>RESULT</strong> <br><br> {{certificates.vacResult}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>PRACTICE</strong> <br><br> {{certificates.facility}}</p>
+        <br>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+        Travel Certificates
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+      <div class="accordion-body">
+        <h3>COVID19 CERTIFICATE</h3>
+        <h3>SUMMARY</h3>
+        <br>
+        <p class="h6"*ngFor="let certificates of currentCertificates">
+          Date: {{certificates.certDate}}</p>
+        <p class="h6"*ngFor="let certificates of currentCertificates">
+          Time: {{certificates.certTime}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>PATIENT DETAILS</strong>  <br><br> Patient ID: {{certificates.patientID}}</p>
+        <p class="h5"*ngFor="let patients of currentPatients">
+          Full Name: {{patients.patientName}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>RESULT</strong> <br><br> {{certificates.vacResult}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>VACCINE TYPE</strong> <br><br> {{certificates.summary}}</p>
+        <br>
+        <br>
+        <p class="h5"*ngFor="let certificates of currentCertificates">
+          <strong>PRACTICE</strong> <br><br> {{certificates.facility}}</p>
+        <br>
+      </div>
+    </div>
+  </div>
+  <img src="assets/covid.jpg" alt="covid image" width="100%" height="250px">
+</div>
+<br>
+<br>
+<br>
+
+
+</body>
+
+<!--<body>-->
+<!--<div class="container">-->
+<!--  <br>-->
+<!--  <h3>COVID19 VACCINATION CERTIFICATES</h3>-->
+<!--  <br>-->
+<!--  -->
+<!--    <ul class="list-group">-->
+<!--      <li class="list-group-item" *ngFor="let Certificate of currentCertificates">-->
+<!--        <p> {{Certificate.certDate}}</p>-->
+<!--        <p> {{Certificate.certTime}}</p>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </div>-->
+<!--  </body>-->
+<!--  /************************** Alfiyyah's Contribution *********************/-->
